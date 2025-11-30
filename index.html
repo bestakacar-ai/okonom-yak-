@@ -1,0 +1,193 @@
+﻿<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Okonomiyaki — Tarihçesi, Kültürel Önemi ve Yapılışı</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg1: #a62222;
+    --bg2: #7f1c1c;
+    --accent: #fff7e1;
+    --soft: #fef7e5;
+  }
+
+  *{ box-sizing: border-box; }
+
+  body{
+    margin:0;
+    font-family: Inter, 'Noto Serif JP', serif;
+    background: linear-gradient(160deg, var(--bg1), var(--bg2));
+    color: var(--accent);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container{ max-width: 1000px; margin: 36px auto; padding: 20px; }
+
+  header{
+    display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; margin-bottom:30px;
+  }
+
+  header h1{
+    margin:0;
+    font-size:40px;
+    font-weight:900;
+    font-family:'Noto Serif JP', serif;
+    color: var(--accent);
+    text-shadow: 0 0 8px rgba(255,240,200,0.25);
+  }
+
+  nav{ display:flex; gap:18px; }
+  nav a{ color:var(--accent); font-weight:500; opacity:0.95; text-decoration:none; }
+
+  .hero{
+    display:flex; flex-wrap:wrap; align-items:center;
+    gap:20px; margin-bottom:26px;
+  }
+
+  .bubble{
+    background: rgba(255,255,255,0.05);
+    padding:20px;
+    border-radius:16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+  }
+
+  .hero-text{ flex:1; min-width:280px; }
+  .hero-text h2{
+    margin:0 0 10px 0;
+    font-size:34px;
+    color:var(--accent);
+    text-shadow:0 0 8px rgba(255,240,200,0.18);
+  }
+
+  .hero-media{ flex:1; min-width:280px; display:flex; justify-content:center; }
+  .hero-media img{
+    width:100%; max-width:520px;
+    border-radius:16px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  }
+
+  section{ margin-bottom:36px; }
+  section h3{
+    font-size:26px;
+    margin:0 0 12px 0;
+    color:var(--accent);
+    text-shadow:0 0 10px rgba(255,240,200,0.18);
+  }
+
+  p, li{ color:var(--soft); line-height:1.7; }
+
+  ul{ margin-left:20px; }
+  ol{ margin-left:20px; }
+
+  .gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:18px;
+    margin-top:10px;
+  }
+
+  .gallery img{
+    width:100%; border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.55);
+    transition:transform .25s ease, filter .25s ease;
+  }
+  .gallery img:hover{
+    transform:scale(1.03);
+    filter:brightness(1.05);
+  }
+
+  .video-container{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+    border-radius:14px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    margin-top:18px;
+  }
+  .video-container iframe{
+    position:absolute; top:0; left:0;
+    width:100%; height:100%;
+    border:0;
+  }
+
+  @media (max-width:720px){
+    .hero{ flex-direction:column-reverse; }
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <h1>Okonomiyaki</h1>
+    <nav>
+      <a href="#history">Tarihçe</a>
+      <a href="#recipe">Yapılışı</a>
+      <a href="#gallery">Galeri</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text bubble">
+      <h2>Okonomiyaki</h2>
+      <p>Japonya’nın ünlü sokak yemeği, içine istediğiniz malzemeleri ekleyerek hazırlayabileceğiniz yaratıcı bir yemek.</p>
+    </div>
+
+    <div class="hero-media">
+      <img src="https://i.ibb.co/XQ42JCq/okonomiyaki1.jpg" alt="Okonomiyaki">
+    </div>
+  </section>
+
+  <div class="video-container">
+    <iframe src="https://streamable.com/e/76edh4" allowfullscreen></iframe>
+  </div>
+
+  <section id="history" class="bubble">
+    <h3>🕰️ Tarihçesi</h3>
+    <p>Okonomiyaki, Japonya’da 16. yüzyıldan beri yapılan, özellikle II. Dünya Savaşı sonrası ekonomik sıkıntılarda ucuz ve doyurucu bir öğün olarak popülerlik kazanan bir sokak yemeğidir. Osaka ve Hiroshima tarzlarıyla bilinir.</p>
+  </section>
+
+  <section id="recipe" class="bubble">
+    <h3>👩‍🍳 Yapılışı</h3>
+
+    <p><strong>Malzemeler</strong></p>
+    <ul>
+      <li>1 su bardağı un</li>
+      <li>1/2 su bardağı su veya dashi suyu</li>
+      <li>1 adet yumurta</li>
+      <li>2 su bardağı ince doğranmış lahana</li>
+      <li>100 g taze doğranmış yeşil soğan</li>
+      <li>100 g karides, sosis veya kıyma (isteğe bağlı)</li>
+      <li>2 yemek kaşığı sıvı yağ</li>
+      <li>Servis için: okonomiyaki sosu, mayonez, katsuobushi, aonori</li>
+    </ul>
+
+    <h4 style="margin-top:12px; color:var(--accent);">Hazırlanışı</h4>
+    <ol>
+      <li>Un, su/dashi ve yumurtayı karıştırıp akışkan bir hamur elde edin.</li>
+      <li>Lahana, yeşil soğan ve seçtiğiniz malzemeleri ekleyip karıştırın.</li>
+      <li>Tavayı ısıtın, yağ ekleyin, hamuru dökün ve 3–4 dakika pişirin. Altın rengi olmalı.</li>
+      <li>Çevirip diğer tarafı da 3–4 dakika pişirin, pişerken biraz yağ gezdirin.</li>
+      <li>Üzerine okonomiyaki sosu ve mayonez gezdirin, katsuobushi ve aonori ile süsleyin.</li>
+    </ol>
+  </section>
+
+  <section id="gallery" class="bubble">
+    <h3>📸 Galeri</h3>
+    <div class="gallery">
+      <img src="https://i.ibb.co/XQ42JCq/okonomiyaki1.jpg" alt="Okonomiyaki 1">
+      <img src="https://i.ibb.co/JRDxDWz9/okonomiyaki2.jpg" alt="Okonomiyaki 2">
+      <img src="https://i.ibb.co/wFDZN3Bd/okonomiyaki3.jpg" alt="Okonomiyaki 3">
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
